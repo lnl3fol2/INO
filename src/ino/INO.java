@@ -48,8 +48,8 @@ public class INO {
     
     public static void main(String[] args) throws IOException {
         BasicConfigurator.configure();
-        ffmpeg = new FFmpeg("D:\\download\\ffmpeg-4.0-win64-static\\bin\\ffmpeg.exe");                     //path to ffmpeg.exe
-        ffprobe = new FFprobe("D:\\download\\ffmpeg-4.0-win64-static\\bin\\ffprobe.exe");                  //path to ffprobe.exe
+        ffmpeg = new FFmpeg("C:\\Users\\maoufumi\\Downloads\\ffmpeg\\bin\\ffmpeg.exe");                     //path to ffmpeg.exe
+        ffprobe = new FFprobe("C:\\Users\\maoufumi\\Downloads\\ffmpeg\\bin\\ffprobe.exe");                  //path to ffprobe.exe
         String out;        
         delete("v1.mp4");
         delete("v2.mp4");
